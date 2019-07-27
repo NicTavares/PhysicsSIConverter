@@ -9,6 +9,7 @@ function calc(){
         alert("Error with input.Please re-enter values");
         return;
     }
+    //k
 
     flag = unitConv.charAt(0);
     percentage = unitConv.substr(1)
