@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<link href="uiStyling.css" rel = "stylesheet" type ="text/css" />
+<div id="container">
+    <h1>Physics SI Unit Converter</h1>
+    <div id="calculator">
+
+
+        <form>
+            <p>Value:
+            <p>
+                 <input id="unitAmt" type="text" placeholder="">
+
+            <p>Units:
+            <p>
+                <select id="conversion">
+                    <option disabled selected value="0">-- Choose an Option --</option>
+                    <option value="L0.001">mL -> L</option>
+                    <option value="M1000">KM -> Meters</option>
+                    <option value="M0.3048">Ft -> Meters</option>
+                    <option value="M1609.34">Miles -> Meters</option>
+                    <option value="K0.001">G -> KG</option>
+                    <option value="S60">Minutes -> Seconds</option>
+                    <option value="S3600">Hours -> Seconds</option>
+                    <option value="K0.0283495">Ounces -> KG</option>
+                    <option value="L0.0295735">Ounces -> L</option>
+                </select>
+
+        </form>
+        <button type="button" id="calculate">Calculate!</button>
+
+    </div>
+    <h2>After Conversion:</h2>
+    <div id="PostConversion">
+        <sup></sup><span id="pc">0.00</span>
+
+    </div>
+
+</div>
+
+<script type="text/javascript" src="SiLogic.js"></script>
+</html>
